@@ -1,0 +1,19 @@
+.cor {
+  background: #65d5f7;
+}
+
+.fs-54 {
+  color: #fff;
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+.fonte {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.pd {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
