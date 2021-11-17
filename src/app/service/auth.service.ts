@@ -20,10 +20,10 @@ export class AuthService {
     return this.http.post<Usuario>('https://blogpessoal34.herokuapp.com/api/v1/usuario/salvar', usuario)
   }
 
-  logado(){
+  logado() {
     let ok: boolean = false;
 
-    if (environment.token != ''){
+    if (environment.token != '') {
       ok = true
     }
     return ok
